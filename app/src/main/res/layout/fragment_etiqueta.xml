@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_etiqueta"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.etiquetas.EtiquetaFragment">
+    tools:context=".ui.etiquetas.fragment_etiqueta">
 
     <TextView
         android:id="@+id/text_etiqueta"
@@ -15,4 +17,4 @@
         android:textAlignment="center"
         android:textSize="20sp" />
 
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
